@@ -1,0 +1,81 @@
+.wrap { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 3rem;
+    text-decoration: none;
+    .title {
+        font-size: 1.5rem;
+        font-weight: 800;
+        text-transform: capitalize;
+        margin-top: 3rem;
+    }
+    .card {
+        width: 60%;
+        margin: 1rem auto 3rem auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        // align-items:center;
+        background-color: white;
+        box-shadow: -10px 10px 20px #d5c8bf;
+        .left {
+            width: 90%;
+            margin: 3rem 0;
+            .top {
+                width: 80%;
+                border-left: 12px solid #1058fc;
+                padding-left: 2rem;
+                .time {
+                    font-size: 1.5rem;
+                    color: #1058fc;
+                    font-weight:800;
+                    margin-bottom: 0.5rem;
+                }
+                .role {
+                    font-size: 0.9rem;
+                    font-weight: 600;
+                    margin-bottom: 0.5rem;
+                }
+                .company {
+                    font-size: 0.8rem;
+                    margin-bottom: 4rem;
+                }
+            }
+            .buttom {    
+                border-left: 12px solid #ffffff;            
+                padding-left: 2rem;
+                .desc {
+                    font-size:1rem;
+                    margin-bottom: 1rem;
+                }
+                .button {
+                    width: 25%;
+                    font-size: 0.8rem;
+                    font-weight: 600;
+                    color: black;
+                    text-transform: uppercase;
+                    border: black solid 1.5px;
+                    padding: 0.5rem 1.5rem;
+                    border-radius: 2rem;
+                    transition: 0.3s;
+                }
+                .button:hover {
+                    color: white;
+                    background-color: #1058fc;
+                    border: #1058fc solid 1.5px;
+                }
+            }
+        }
+        .right {
+            display: flex;
+            justify-content: flex-end;
+            img {
+                width: 70%;
+                height: 100%;
+                display: block;
+            }
+        }
+    }
+}

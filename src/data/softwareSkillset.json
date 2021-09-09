@@ -1,0 +1,30 @@
+{
+    "code": 200,
+    "msg": "successful!",
+    "data": [
+        {
+            "id": 1,
+            "content": "Adobe XD"
+        },
+        {            
+            "id": 2,
+            "content": "Adobe Photoshop"
+        },
+        {            
+            "id": 3,
+            "content": "Adobe Illustrator"
+        },
+        {            
+            "id": 4,
+            "content": "Adobe After Effect"
+        },
+        {            
+            "id": 5,
+            "content": "Sketch"
+        },
+        {            
+            "id": 6,
+            "content": "Figma"
+        }
+    ]
+}

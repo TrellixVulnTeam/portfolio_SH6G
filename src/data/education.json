@@ -1,0 +1,22 @@
+{
+    "code": 200,
+    "msg": "successful!",
+    "data": [
+        {
+            "id": 1,
+            "time": "April 2021 - July 2021",
+            "major": "Full Stack JavaScript Developer",
+            "school": "School of Applied Technology </salt>",
+            "location": "Stockholm, Sweden.",
+            "desc": "Intensive three month training program for full stack web development with a focus on TDD, mob programming, and applied learning."
+        },
+        {            
+            "id": 2,
+            "time": "June 2012 - June 2016",
+            "major": "Graphic Design",
+            "school": "(Bachelor degree)South China Institute of Software Engineering.GU",
+            "location": "Guangzhou, China.",
+            "desc": "Advanced Diploma that gave me digital skills within areas like graphic design, web design, UI/UX design."
+        }
+    ]
+}

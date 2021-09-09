@@ -1,0 +1,32 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+    .title {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+        .square {
+            height: 1rem;
+            width: 1rem;
+            margin-right: 1rem;
+            background-color: #1058fc;
+          }
+        p {
+            font-size: 2rem;
+            font-weight: 800;
+            text-transform: capitalize;
+        }
+    }
+    .subtitle {
+        width: 50%;
+        margin: 2rem 0;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+}

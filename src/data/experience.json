@@ -1,0 +1,22 @@
+{
+    "code": 200,
+    "msg": "successful!",
+    "data": [
+        {
+            "id": 1,
+            "time": "2018-2020",
+            "role": "Creative & Digital Designer",
+            "company": "Orange Sky AB",
+            "location": "Stockholm, Sweden.",
+            "desc": "Responsible for all graphical/digital implementation from concept to execution, for websites, campaigns and new products. Responsible for administrating, maintaining the website content, and working closely with teams to develop new features for the websites."
+        },
+        {            
+            "id": 2,
+            "time": "2016 - 2017",
+            "role": "UI/UX designer",
+            "company": "Rinzz.co",
+            "location": "Changsha, China.",
+            "desc": "Designing the overall art style, UI/UX design and other related design tasks in the Web/App projects."
+        }
+    ]
+}
