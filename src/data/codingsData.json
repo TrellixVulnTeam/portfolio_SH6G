@@ -8,24 +8,43 @@
             "role": "Gastby, React, GraphQL",
             "time": "2021 Stockholm, Sweden",
             "desc": "Graduration project from </Salt>",
-            "url": "https://i.ibb.co/FHyfXkr/eatsy-cover.png",
+            "url": "https://i.ibb.co/9nZH4v0/eatsy-cover.png",
             "demo": "https://eatsy.tk/"
         },
         {
             "id": 2,
-            "name": "Anime Quotes",
-            "role": "React, Rest API, HTML/CSS",
+            "name": "Portfolio website",
+            "role": "React, HTML, SCSS",
             "time": "2021 Stockholm, Sweden",
-            "desc": "An application can generate a random quote from animes, can search quotes by anime character or name. What's more? You can save your favourite quote and check it on your favourite list. ",
-            "url":  "https://i.ibb.co/804rFsF/Clay-i-Phone-X-Mockup-Vol-2-by-Anthony-Boyd-Graphics.jpg"
+            "desc": "My personal Portfolio Website",
+            "url": "https://i.ibb.co/YWW6HJ1/portfolio-cover.jpg",
+            "demo": "https://www.jiayuwenn.com/"
         },
         {
             "id": 3,
+            "name": "Anime Quotes",
+            "role": "React, Rest API, HTML/CSS",
+            "time": "2021 Stockholm, Sweden",
+            "desc": "An application can generate a random quote from animes, can search quotes by anime character or name. What's more? You can save your favourite quotes and check it on your favourite list. ",
+            "url":  "https://i.ibb.co/kGFKZYV/Clay-i-Phone-X-Mockup-Vol-2-by-Anthony-Boyd-Graphics.jpg",
+            "demo": "https://github.com/jiayuwaern/anime-quote-app"
+        },
+        {
+            "id": 4,
             "name": "Todo APP",
             "role": "JavaScript, HTML, CSS",
             "time": "2021 Stockholm, Sweden",
             "desc": "A todo APP allows you create your own todo list.",
-            "url": "https://i.ibb.co/8g6Vc84/todo-cover.jpg"
+            "url": "https://i.ibb.co/ZKhyTYB/todo-cover.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Todo APP",
+            "role": "React, HTML, CSS",
+            "time": "2021 Stockholm, Sweden",
+            "desc": "A todo APP allows you create your own todo list.",
+            "url": "https://i.ibb.co/9HNJ7Y4/todoreact-cover.jpg",
+            "demo": "https://todo-app-react-jy.netlify.app/"
         }
     ]
 }
