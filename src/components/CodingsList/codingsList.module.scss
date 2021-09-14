@@ -46,6 +46,8 @@
             .buttom {    
                 border-left: 12px solid #ffffff;            
                 padding-left: 2rem;
+                display: flex;
+                flex-direction: column;
                 .desc {
                     font-size:1rem;
                     margin-bottom: 1rem;
@@ -62,7 +64,7 @@
                     transition: 0.3s;
                     margin-bottom: 1rem;
                 }
-                .button-hidden {
+                .buttonhidden {
                     display: none;
                 }
                 .button:hover {
@@ -76,7 +78,7 @@
             display: flex;
             justify-content: flex-end;
             img {
-                width: 70%;
+                width: 90%;
                 height: 100%;
                 display: block;
             }

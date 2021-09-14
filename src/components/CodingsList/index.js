@@ -12,13 +12,15 @@ export default ( { codingsData } ) => {
                             <div className= { styles.left}>
                                 <div className= { styles.top }>
                                     <li key={item.id} className= { styles.time }> { item.name } </li>
-                                    <li className= { styles.role }>{item.role }</li>
+                                    <li className= { styles.role }>{ item.role }</li>
                                     <li className= { styles.company }>{ item.time }</li>
                                 </div>
                                 <div className= { styles.buttom }>
                                     <p className= { styles.desc }>{ item.desc }</p>
+                                    {/* className={this.state.showStore ? NORMAL : HIDDEN} */}
                                     {/* <Link to={ `/codings/${item.id}` }><p className= { styles.button }>check more</p></Link> */}
                                     <a href={ `${ item.demo }`}  target="_blank" className= { styles.button }>check Demo</a>
+                                    <a href={ `${ item.github }`}  target="_blank" className= { styles.button }>check Code</a>                                
                                 </div>
                             </div>
                             <div className= { styles.right}>
