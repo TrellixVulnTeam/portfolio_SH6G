@@ -25,7 +25,7 @@ class App extends Component {
               <div>Jiayu Wen</div>
             </div>
             <div className={styles.boxright}>
-              <Link to="/" className={location.pathname==="/" ? styles.selected  : null }><p>about me</p></Link>
+              <Link to="/" className={location.pathname==="/" ? styles.selected  : null }><p>about</p></Link>
               <Link to="/resume" className={location.pathname==="/resume" ? styles.selected  : null }><p>resume</p></Link>
               <Link to="/codings" className={location.pathname==="/codings" ? styles.selected  : null }><p>coding</p></Link>
               <Link to="/designs" className={location.pathname==="/designs" ? styles.selected  : null }><p>design</p></Link>

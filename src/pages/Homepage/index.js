@@ -22,6 +22,7 @@ export default () => {
             <p className={ styles.subtitle }>Here's who I am & what I do</p>
             <div className={ styles.buttons }>
                 <Link to="/resume" className={ styles.button }><p>resume</p></Link>
+                <Link to="/codings" className={ styles.button }><p>codings</p></Link>
                 <Link to="/design" className={ styles.button }><p>design</p></Link>
                 <Link to="/illustration" className={ styles.button }><p>illustration</p></Link>
             </div>

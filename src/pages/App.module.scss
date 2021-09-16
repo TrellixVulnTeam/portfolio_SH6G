@@ -93,7 +93,28 @@
       padding: 100px 12px;
       flex-direction: column;
       .boxleft {
-        margin-top: 15px;
+        margin-top: 20px;
+      }
+    }
+    .footer {
+      width: 100%;
+      flex-direction: column-reverse;
+      text-align: center;
+      padding: 0;
+      .left {
+        width: 100%;
+        margin-left: 0;
+        margin: 1rem 0 0.5rem 0;
+      }
+      .title {
+        margin-bottom: 0.1rem;
+      }
+      .middle {
+        width: 100%;
+      }
+      .right {
+        width: 100%;
+        margin: 1rem 0 0.5rem 0;
       }
     }
   }
