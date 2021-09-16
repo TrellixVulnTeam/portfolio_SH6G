@@ -11,8 +11,10 @@ export default () => {
                 <p>Jiayu</p>
                 <p>Wen</p>
                 <div className= { styles.line }></div>
-                <p className={ styles.subtitle }>Web designer</p>
-                <p className={ styles.subtitle }>Graphic designer/ Illustrator</p>
+                <div className= { styles.subtitles}>
+                    <p className={ styles.subtitle }>Web designer</p>
+                    <p className={ styles.subtitle }>Graphic designer/ Illustrator</p>
+                </div>
             </div>
         </section>
         <section className={ styles.info }>

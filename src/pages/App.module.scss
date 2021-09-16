@@ -51,6 +51,9 @@
         text-transform: uppercase;
         display: inline-flex;
         justify-content: flex-start;
+        #nav-icon2 {
+          display: none;
+        }
         p{
           margin: 0px 10px;
           font-size: 14px;
@@ -81,6 +84,17 @@
     }
     .right {
       margin-right: 4rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .box {
+      margin: 100px auto;
+      padding: 100px 12px;
+      flex-direction: column;
+      .boxleft {
+        margin-top: 15px;
+      }
     }
   }
 }
