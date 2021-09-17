@@ -111,16 +111,20 @@
         .info {
             background-color: #e2dad1;
             margin-top: 0;
-            width: 80%;
-            padding: 0 3rem 3rem;
-            .buttons {
-                flex-wrap: wrap;
-                .button {
-                    margin: 1rem 0.5rem 0 0;
+            width: 100%;
+            // padding: 0 2rem 2rem;
+            .infowrap{
+                width: 80%;
+                margin: 0 0 10% 10%;
+                .buttons {
+                    flex-wrap: wrap;
+                    .button {
+                        margin: 1rem 0.5rem 0 0;
+                    }
                 }
-            }
-            .desc {
-                margin-top: 1rem;
+                .desc {
+                    margin-top: 1rem;
+                }
             }
         }
     }

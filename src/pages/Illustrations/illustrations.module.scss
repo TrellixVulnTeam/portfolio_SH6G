@@ -30,3 +30,12 @@
         text-align: center;
     }
 }
+
+@media (max-width: 480px) {
+    .wrap {
+        width: 100%;
+        .subtitle {
+            width: 80%;
+        }
+    }
+}
