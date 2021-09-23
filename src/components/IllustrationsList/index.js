@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styles from './illustrationList.module.scss';
-import { Link } from 'react-router-dom';
+import { Link, withRouter} from "react-router-dom";
 
-export default ( { illustrationsData } ) => {
+const IllustrationsList = ({ illustrationsData })  => {
+    // const { location } = this.props;
     return (
         <div className={ styles.wrap }>
             <ul>
@@ -17,7 +18,9 @@ export default ( { illustrationsData } ) => {
                                 </div>
                                 <div className= { styles.buttom }>
                                     <p className= { styles.desc }>{ item.desc }</p>
-                                    {/* <Link to={ `/illustrations/${item.id}` }><p className= { styles.button }>check more</p></Link> */}
+                                    {/* location.pathname===`/illustrations/${item.id}` ?  */}
+                                    {/* <Route path={ `/illustrations/${item.id}`} component={ item.page } /> */}
+                                    <Link to={ `/illustrations/${item.id}`}><p className= { styles.button }>check more</p></Link>
                                 </div>
                             </div>
                             <div className= { styles.right}>
@@ -30,3 +33,4 @@ export default ( { illustrationsData } ) => {
         </div>
     )
 }
+export default withRouter(IllustrationsList);

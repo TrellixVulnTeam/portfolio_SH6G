@@ -18,6 +18,11 @@
     top: 0;
     z-index: 99;
     background-color: white;
+    .unselected{
+      color: black !important;
+      padding-bottom: 5px;
+      border-bottom: 1.5px solid #ffffff;
+    }
     .selected{
       color: #1058fc!important;
       padding-bottom: 5px;

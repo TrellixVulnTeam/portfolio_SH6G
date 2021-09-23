@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styles from './designList.module.scss';
 import { Link } from 'react-router-dom';
 
@@ -17,7 +17,7 @@ export default ( { designsData } ) => {
                                 </div>
                                 <div className= { styles.buttom }>
                                     <p className= { styles.desc }>{ item.desc }</p>
-                                    {/* <Link to={ `/designs/${item.id}` }><p className= { styles.button }>check more</p></Link> */}
+                                    <Link to={ `/designs/${item.id}` }><p className= { styles.button }>check more</p></Link>
                                 </div>
                             </div>
                             <div className= { styles.right}>

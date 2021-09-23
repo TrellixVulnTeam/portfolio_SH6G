@@ -116,6 +116,9 @@
             .infowrap{
                 width: 80%;
                 margin: 0 0 10% 10%;
+                .subtitle {
+                    font-size: 1.4rem;
+                }
                 .buttons {
                     flex-wrap: wrap;
                     .button {

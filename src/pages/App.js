@@ -4,11 +4,15 @@ import { Link, Route, withRouter} from "react-router-dom";
 import Homepage from "./Homepage";
 import Resume from "./Resume";
 import Codings from "./Codings";
-import Design from "./Design";
 import Designs from "./Designs";
-import Illustration from "./Illustration";
+import GastonLuga from "./GastonLuga";
+import Rinzz from "./Rinzz";
+import Muse from "./Muse";
+import Cemoment from "./Cemoment";
+import Salvation from "./Salvation";
+import BluesGrace from "./BluesGrace";
+import Whisperer from "./Whisperer";
 import Illustrations from "./Illustrations";
-import { render } from '@testing-library/react';
 import { Component } from 'react';
 
 class App extends Component {
@@ -25,10 +29,10 @@ class App extends Component {
               <div>Jiayu Wen</div>
             </div>
             <div className={styles.boxright}>
-              <Link to="/" className={location.pathname==="/" ? styles.selected  : null }><p>about</p></Link>
-              <Link to="/resume" className={location.pathname==="/resume" ? styles.selected  : null }><p>resume</p></Link>
-              <Link to="/codings" className={location.pathname==="/codings" ? styles.selected  : null }><p>coding</p></Link>
-              <Link to="/designs" className={location.pathname==="/designs" ? styles.selected  : null }><p>design</p></Link>
+              <Link to="/" className={location.pathname==="/" ? styles.selected  : styles.unselected }><p>about</p></Link>
+              <Link to="/resume" className={location.pathname==="/resume" ? styles.selected  : styles.unselected }><p>resume</p></Link>
+              <Link to="/codings" className={location.pathname==="/codings" ? styles.selected  : styles.unselected }><p>coding</p></Link>
+              <Link to="/designs" className={location.pathname==="/designs" ? styles.selected  : styles.unselected }><p>design</p></Link>
               <Link to="/illustrations" className={location.pathname==="/illustrations" ? styles.selected  : null }><p>illustration</p></Link>
             </div>
           </div>
@@ -41,9 +45,14 @@ class App extends Component {
           <Route path="/codings" exact component={ Codings }></Route>
           {/* <Route path="/codings/:id" exact component={ Coding }></Route> */}
           <Route path="/designs" exact component={ Designs }></Route>
-          <Route path="/designs/:id" exact component={ Design }></Route>
+          <Route path="/designs/1" exact component={ GastonLuga }></Route>
+          <Route path="/designs/2" exact component={ Rinzz }></Route>
+          <Route path="/designs/3" exact component={ Muse }></Route>
           <Route path="/illustrations" exact component={ Illustrations }></Route>
-          <Route path="/illustrations/:id" exact component={ Illustration }></Route>
+          <Route path="/illustrations/1" exact component={ Cemoment }></Route>
+          <Route path="/illustrations/2" exact component={ Salvation }></Route>
+          <Route path="/illustrations/3" exact component={ BluesGrace }></Route>
+          <Route path="/illustrations/4" exact component={ Whisperer }></Route>
         </section>
 
         {/* Footer */}
