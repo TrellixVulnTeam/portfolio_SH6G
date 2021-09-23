@@ -8,13 +8,15 @@ class Salvation extends Component {
                 <section className={ styles.wrap }>
                     <div className={ styles.title }>
                         <div className={ styles.square }></div>
-                        <p>Savvation</p>
+                        <p>Salvation</p>
                     </div>
-                <section className={ styles.gallery }>
-                    <img src="https://i.ibb.co/vxmCxcw/Processed-with-VSCO-with-c7-preset.jpg" />
-                    <img src="https://i.ibb.co/1ZjXTnR/Processed-with-VSCO-with-c7-preset.jpg" />
-                    <img src="https://i.ibb.co/3SMxcHY/Processed-with-VSCO-with-c7-preset.jpg" />
-                </section>
+                    <section className={ styles.gallery }>
+                        <img className={ styles.main} src="https://i.ibb.co/vxmCxcw/Processed-with-VSCO-with-c7-preset.jpg" />
+                        <div className={ styles.notmain}>
+                            <img src="https://i.ibb.co/1ZjXTnR/Processed-with-VSCO-with-c7-preset.jpg" />
+                            <img src="https://i.ibb.co/3SMxcHY/Processed-with-VSCO-with-c7-preset.jpg" />
+                        </div>
+                    </section>
                 </section>
             </div>
         )
