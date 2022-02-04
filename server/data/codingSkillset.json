@@ -1,0 +1,54 @@
+[
+        {
+            "id": "1",
+            "content": "JavaScript"
+        },
+        {            
+            "id": "2",
+            "content": "HTML/CSS"
+        },
+        {            
+            "id": "3",
+            "content": "React"
+        },
+        {            
+            "id": "4",
+            "content": "Node.js/Express"
+        },
+        {            
+            "id": "5",
+            "content": "HTTP / AJAX / JSON"
+        },
+        {            
+            "id": "6",
+            "content": "Rest API"
+        },
+        {            
+            "id": "7",
+            "content": "Git"
+        },
+        {            
+            "id": "8",
+            "content": "Mocha"
+        },
+        {            
+            "id": "9",
+            "content": "WordPress"
+        },
+        {            
+            "id": "10",
+            "content": "Handlebars"
+        },
+        {            
+            "id": "11",
+            "content": "Gatsby"
+        },
+        {            
+            "id": "12",
+            "content": "Netlify"
+        },
+        {            
+            "id": "13",
+            "content": "GraphQL"
+        }
+    ]

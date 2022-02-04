@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "name": "GastonLuga",
+        "role": "Creative & Digital Designer",
+        "time": "2018 - 2020 Stockholm, Sweden",
+        "desc": "Gaston Luga was created with a vision to carry your life in effortless style: a vision we are continuously striving to achieve.",
+        "url": "https://i.ibb.co/W3L5x0S/glcover.png"
+    },
+    {
+        "id": "2",
+        "name": "Rinzz APP",
+        "role": "UI/UX designer",
+        "time": "2016 - 2017 Changsha, China",
+        "desc": "An application for IOS and Android that helps you connect with people who loves mobile game.",
+        "url":  "https://i.ibb.co/0Fmg56z/rinzz-cover.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Muse Runner",
+        "role": "UI/UX designer",
+        "time": "2016 - 2017 Changsha, China",
+        "desc": "A published music related mobile game for Android and IOS.",
+        "url": "https://i.ibb.co/kJWGtmC/muse-cover.jpg"
+    }
+]

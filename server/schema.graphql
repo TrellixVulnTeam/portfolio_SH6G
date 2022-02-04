@@ -1,0 +1,79 @@
+type Query {
+    language(id: ID!): Language
+    languages: [Language]
+    experiences: [Experience]
+    experience(id: ID!): Experience
+    illustrationsDataEle(id: ID!): IllustrationsDataEle
+    illustrationsData: [IllustrationsDataEle]
+    codingsData: [CodingsDataEle]
+    codingsDataEle(id: ID!): CodingsDataEle
+    codingSkillset: [CodingSkillsetEle]
+    codingSkillsetEle(id: ID!): CodingSkillsetEle
+    softwareSkillset: [SoftwareSkillsetEle]
+    softwareSkillsetEle(id: ID!): SoftwareSkillsetEle
+    education: [EducationEle]
+    educationEle(id: ID!): EducationEle
+    designsData: [DesignsDataEle]
+    designsDataEle(id: ID!): DesignsDataEle
+}
+
+type Language {
+    id: ID!
+    content: String
+}
+
+type Experience {
+    id: ID!
+    time: String
+    role: String
+    company: String
+    desc: String
+}
+
+type IllustrationsDataEle {
+    id: ID!
+    name: String
+    type: String
+    time: String
+    desc: String
+    url: String
+}
+
+type CodingsDataEle {
+    id: ID!
+    name: String
+    role: String
+    time: String
+    desc: String
+    url: String
+    demo: String
+    github: String
+}
+
+type CodingSkillsetEle {
+    id: ID!
+    content: String
+}
+
+type SoftwareSkillsetEle {
+    id: ID!
+    content: String
+}
+
+type EducationEle {
+    id: ID!
+    time: String
+    major: String
+    school: String
+    location: String
+    desc: String
+}
+
+type DesignsDataEle {
+    id: ID!
+    name: String
+    time: String
+    role: String
+    desc: String
+    url: String
+}

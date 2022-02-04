@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "name": "« Ce moment, ces dix ans »",
+        "type": "Poetry illustrations",
+        "time": "2021 - Present",
+        "desc": "This is a series of illustrations for a published Chinese and French poetry collection.This project is still in process.",
+        "url": "https://i.ibb.co/PZC1Qby/ceCover.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Salvation",
+        "type": "Watercolour hand-painting",
+        "time": "2020",
+        "desc": "Everyone has a moment of loneliness in their soul.",
+        "url":  "https://i.ibb.co/3SMxcHY/Processed-with-VSCO-with-c7-preset.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Grace & Blues",
+        "type": "Ipad Pro",
+        "time": "2019",
+        "desc": "A collection for my cats: Grace and Blues.",
+        "url": "https://i.ibb.co/Z2ywrS2/gb-cover.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Whisperer",
+        "type": "Watercolour hand-painting",
+        "time": "2016",
+        "desc": "My graduation design illustration works.",
+        "url": "https://i.ibb.co/w0gNG6H/whisperer-cover.jpg"
+    }
+]
