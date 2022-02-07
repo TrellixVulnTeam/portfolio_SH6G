@@ -32,7 +32,8 @@ async function startApolloServer() {
   });
   await server.start();
   server.applyMiddleware({app, path: '/graphql'});
-  await new Promise(resolve => httpServer.listen({ port: process.env.PORT || 4000 }, resolve));
+  const PORT = process.env.PORT || 4000;
+  await new Promise(resolve => httpServer.listen(PORT, resolve));
   console.log(`
       🚀  Server is ready at http://localhost:4000${server.graphqlPath}
       📭  Query at https://studio.apollographql.com/dev
@@ -51,4 +52,10 @@ app.post('/login', (req, res) => {
   res.send({token});
 });
 
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("build"));
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname,  "build", "index.html"));
+  });
+}
 // app.listen(port, () => console.info(`Server started on port ${port}`));
