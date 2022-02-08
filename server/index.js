@@ -41,16 +41,9 @@ async function startApolloServer() {
 }
 startApolloServer();
 
-app.post('/login', (req, res) => {
-  const {email, password} = req.body;
-  const user = db.users.list().find((user) => user.email === email);
-  if (!(user && user.password === password)) {
-    res.sendStatus(401);
-    return;
-  }
-  const token = jwt.sign({sub: user.id}, jwtSecret);
-  res.send({token});
-});
+app.get('/test', function (req, res) {
+  res.send('hello world')
+})
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("build"));

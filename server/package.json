@@ -3,9 +3,8 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "nodemon server.js",
-    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
-  },
+    "start": "nodemon index.js"
+    },
   "engines": {
     "node": "16.x",
     "npm": "8.1.2"
