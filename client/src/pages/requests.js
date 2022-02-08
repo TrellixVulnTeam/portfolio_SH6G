@@ -1,4 +1,4 @@
-const endpointURL = 'http://localhost:4000/graphql';
+const endpointURL = 'https://jiayu-portfolio-server.herokuapp.com/graphql';
 
 async function loadResumeData() {
     const response = await fetch(endpointURL, {

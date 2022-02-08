@@ -28,10 +28,14 @@ async function startApolloServer() {
   const server = new ApolloServer({
     typeDefs: gql(fs.readFileSync('./schema.graphql', {encoding: 'utf8'})),
     resolvers: require('./resolvers'),
+    introspection: true,
     plugins: [ApolloServerPluginDrainHttpServer({ httpServer })],
   });
   await server.start();
   server.applyMiddleware({app, path: '/graphql'});
+  app.get('/loadresumedata', function (req, res) {
+    res.send('hello world')
+  });
   const PORT = process.env.PORT || 4000;
   await new Promise(resolve => httpServer.listen(PORT, resolve));
   console.log(`
@@ -40,10 +44,6 @@ async function startApolloServer() {
   `);
 }
 startApolloServer();
-
-app.get('/test', function (req, res) {
-  res.send('hello world')
-})
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("build"));
