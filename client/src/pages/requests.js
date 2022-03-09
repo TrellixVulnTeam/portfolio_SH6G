@@ -142,4 +142,4 @@ async function loadIllustrationData() {
     return responseBody.data;
 }
 
-module.exports = { loadResumeData, loadCodingsData, loadDesignData, loadIllustrationData };
+export { loadResumeData, loadCodingsData, loadDesignData, loadIllustrationData };

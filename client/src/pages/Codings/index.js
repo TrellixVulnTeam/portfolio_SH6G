@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styles from './codings.module.scss';
 import CodingsList from '../../components/CodingsList';
-import CodingsData from "../../data/codingsData.json";
 import { loadCodingsData } from '../requests';
 
 class Codings extends Component {
